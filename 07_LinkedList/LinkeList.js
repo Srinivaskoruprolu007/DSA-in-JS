@@ -102,7 +102,7 @@ let temp2 = new Node(20);
 let temp3 = new Node(30);
 temp1.next = temp2;
 temp2.next = temp3;
-head = temp1;
+let head = temp1;
 
 temp1.printList();
 console.log("");
@@ -126,3 +126,4 @@ console.log("");
 head.sortedInsert(head, 25);
 head.printList();
 
+export default Node;
